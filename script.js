@@ -7,7 +7,6 @@ function bookmark(link,title){
         'url':link
     });
 };
-//hoge
 window.alert(location.pathname);
 console.log("hogehuga");
 chrome.storage.local.get([location.pathname], function (result) {
